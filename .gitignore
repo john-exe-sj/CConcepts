@@ -1,0 +1,144 @@
+# ----------------------
+# Operating system files
+# ----------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# ----------------------
+# Node.js
+# ----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------
+# Python
+# ----------------------
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python egg
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# ----------------------
+# Java
+# ----------------------
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.project
+*.classpath
+target/
+build/
+
+# ----------------------
+# C/C++
+# ----------------------
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# ----------------------
+# Visual Studio
+# ----------------------
+.vscode/
+.vs/
+*.code-workspace
+
+# ----------------------
+# IDEs and Editors
+# ----------------------
+
+# JetBrains (e.g. IntelliJ, PyCharm, WebStorm)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse
+.project
+.settings/
+.cproject
+*.log
+
+# NetBeans
+/nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# ----------------------
+# Logs and Temp Files
+# ----------------------
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+*.old
+*.orig
+
+# ----------------------
+# Binary files
+# ----------------------
+*.exe
+*.bin
+*.iso
+*.tar.gz
+*.zip
+
+# ----------------------
+# Other
+# ----------------------
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore compressed files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore system-level lock files
+*.lock
+
