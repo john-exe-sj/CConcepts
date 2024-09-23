@@ -21,7 +21,7 @@ int main(int argc, char* argv)
     int size = 10; 
     char* sentence = (char *) calloc(size, sizeof(char)); // use of calloc to reserve clean memory space. 
     printf("Please type in a sentence: "); 
-    fgets(sentence, 25, stdin); 
+    fgets(sentence, size, stdin); 
     printf("%s\n", sentence); 
     free(sentence); // we signal to garbage collection to release memory to avoid leakage. 
 
