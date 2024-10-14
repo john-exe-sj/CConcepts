@@ -32,18 +32,20 @@ int main() {
         }
     }
     printf("Random number: %d\n", random_number);
-    //clear_input_buffer();
 
+    /*
+        Code below asks for user input from user from STDIN/Console. Experiment with this. 
+    */
     char input[10];
-    const char* QUIT = "quit";
+    const char* QUIT = "quit"; // quit command. 
     while (1) {
         printf("Enter a word: ");
-        if (fgets(input, sizeof(input), stdin) == NULL) {
+        if (fgets(input, sizeof(input), stdin) == NULL) { // terminates if system fails to allocate memory or grab input from user. 
             break;
         }
-        int idx = strcspn(input, "\n");
+        int idx = strcspn(input, "\n"); // grabs the index of the nearest new-line character. 
         printf("newline idx: %d\n", idx); 
-        input[idx] = 0; // Remove newline
+        input[idx] = 0; // Remove newline and sets a terminating character. 
         if (strcmp(input, QUIT) == 0) {
             break;
         }
